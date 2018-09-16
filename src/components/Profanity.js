@@ -14,7 +14,7 @@ class Profanity extends React.Component{
 		if(this.props.result==='false'){
 			return(
 				<p id="out_message">
-					yor email sent succesfully to 
+					your email sent succesfully to 
 					{" "+ this.props.email }
 				</p>
 			);
